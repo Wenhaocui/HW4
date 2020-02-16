@@ -6,7 +6,7 @@
 
 class Solution {
 public:
-  void HeapSort(std::vector<int> v);
+  void HeapSort(std::vector<int>& v);
 };
 
 #endif
