@@ -16,8 +16,7 @@ BST::BST(std::vector<int> initial_values){
 }
 
 void BST::DestroyRecursive(TreeNode *&root){
-  if (root)
-  {
+  if (root != nullptr){
   DestroyRecursive(root->left);
   DestroyRecursive(root->right);
   delete root;
